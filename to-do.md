@@ -12,13 +12,13 @@
 
 ## 2. Navigation — Remove Unused Pages
 
-- [ ] Remove or hide the **Blog** page (`_pages/blog.md`)
-- [ ] Remove or hide the **Teaching** page (`_pages/teaching.md`)
-- [ ] Remove or hide the **Books** page (`_pages/books.md`)
-- [ ] Remove or hide the **Projects** page (`_pages/projects.md`)
-- [ ] Remove or hide the **Dropdown** page (`_pages/dropdown.md`)
-- [ ] Remove or hide the **Profiles** page (`_pages/profiles.md`)
-- [ ] Keep: About, Publications, CV, Repositories
+- [x] Remove or hide the **Blog** page (`_pages/blog.md`)
+- [x] Remove or hide the **Teaching** page (`_pages/teaching.md`)
+- [x] Remove or hide the **Books** page (`_pages/books.md`)
+- [x] Remove or hide the **Projects** page (`_pages/projects.md`)
+- [x] Remove or hide the **Dropdown** page (`_pages/dropdown.md`)
+- [x] Remove or hide the **Profiles** page (`_pages/profiles.md`)
+- [x] Keep: About, Publications, CV, Repositories
 - [ ] (Optional) Add a **Miscellaneous** page later
 
 ## 3. About Page (`_pages/about.md`)
