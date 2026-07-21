@@ -23,14 +23,14 @@
 
 ## 3. About Page (`_pages/about.md`)
 
-- [ ] Update subtitle to: `PhD Student in Explainable AI @ Fraunhofer HHI`
-- [ ] Add link to Fraunhofer HHI in the subtitle
-- [ ] Update office/address info below profile picture
-- [ ] Write biography text
-- [ ] Add profile photo (`assets/img/prof_pic.jpg`)
-- [ ] Disable `latest_posts` section (no blog)
-- [ ] Keep `announcements` (news) section enabled
-- [ ] Keep `selected_papers` section enabled
+- [x] Update subtitle to: `PhD Student in AI Interpretability, focusing on Data Attribution and AI Safety @ Fraunhofer HHI`
+- [x] Add link to Fraunhofer HHI in the subtitle
+- [x] Update office/address info below profile picture
+- [x] Write biography text
+- [ ] Add profile photo (`assets/img/prof_pic.jpg`) — to be uploaded by user
+- [x] Disable `latest_posts` section (no blog)
+- [x] Keep `announcements` (news) section enabled
+- [x] Keep `selected_papers` section enabled
 
 ## 4. Social Links (`_data/socials.yml`)
 
