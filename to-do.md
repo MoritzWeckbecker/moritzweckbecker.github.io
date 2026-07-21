@@ -2,7 +2,7 @@
 
 ## 1. Site Configuration (`_config.yml`)
 
-- [ ] Update `scholar` last/first name from `Einstein`/`Albert` to `Weckbecker`/`Moritz`
+- [x] Update `scholar` last/first name from `Einstein`/`Albert` to `Weckbecker`/`Moritz`
 - [ ] Set light mode as default (dark mode toggle remains enabled)
 - [ ] Disable comments (remove Giscus/Disqus config)
 - [ ] Disable analytics (already off — verify no keys are set)
