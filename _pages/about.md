@@ -9,10 +9,9 @@ profile:
   image: profile.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Fraunhofer Institut für Nachrichtentechnik,</p>
-    <p>Heinrich-Hertz-Institut, HHI</p>
+    <p>Fraunhofer Heinrich-Hertz-Institut (HHI)</p>
     <p>Salzufer 15/16</p>
-    <p>10587 Berlin</p>
+    <p>10587 Berlin, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
