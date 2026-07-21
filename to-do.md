@@ -57,10 +57,10 @@
 
 ## 6. Publications (`_bibliography/papers.bib`)
 
-- [ ] Replace Einstein placeholder entries with your own BibTeX publications
-- [ ] Mark selected/featured papers with `selected={true}`
+- [x] Replace Einstein placeholder entries with your own BibTeX publications
+- [x] Mark selected/featured papers with `selected={true}`
 - [ ] Add thumbnails/previews for papers (optional, `assets/img/publication_preview/`)
-- [ ] Update `scholar` config in `_config.yml` with your name (see Section 1)
+- [x] Update `scholar` config in `_config.yml` with your name (see Section 1)
 
 ## 7. Repositories Page (`_data/repositories.yml`)
 
