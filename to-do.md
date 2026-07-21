@@ -45,15 +45,15 @@
 
 ## 5. CV (`_data/cv.yml`)
 
-- [ ] Replace all Albert Einstein placeholder data with your own:
-  - [ ] Name, label, email, location
-  - [ ] Education entries
-  - [ ] Experience/work entries
-  - [ ] Awards (if any)
-  - [ ] Skills
-  - [ ] Languages
-  - [ ] Remove or update Volunteer, Certificates, References sections as needed
-- [ ] Upload CV PDF to `assets/pdf/` and update path in `_data/socials.yml`
+- [x] Replace all Albert Einstein placeholder data with your own:
+  - [x] Name, label, email, location
+  - [x] Education entries
+  - [x] Experience/work entries
+  - [x] Awards (if any)
+  - [x] Skills
+  - [x] Languages
+  - [x] Remove or update Volunteer, Certificates, References sections as needed
+- [x] Upload CV PDF to `assets/pdf/` and update path in `_data/socials.yml`
 
 ## 6. Publications (`_bibliography/papers.bib`)
 
