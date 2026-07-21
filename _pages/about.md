@@ -6,7 +6,7 @@ subtitle: PhD Student in AI Interpretability, focusing on Data Attribution and A
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Fraunhofer Institut für Nachrichtentechnik,</p>
