@@ -3,12 +3,12 @@
 ## 1. Site Configuration (`_config.yml`)
 
 - [x] Update `scholar` last/first name from `Einstein`/`Albert` to `Weckbecker`/`Moritz`
-- [ ] Set light mode as default (dark mode toggle remains enabled)
-- [ ] Disable comments (remove Giscus/Disqus config)
-- [ ] Disable analytics (already off — verify no keys are set)
-- [ ] Remove external blog sources (Medium, Google Blog entries under `external_sources`)
-- [ ] Update `blog_name` and `blog_description` or remove blog-related config
-- [ ] Update `display_tags` and `display_categories` to remove blog-specific tags
+- [x] Set light mode as default (dark mode toggle remains enabled)
+- [x] Disable comments (remove Giscus/Disqus config)
+- [x] Disable analytics (already off — verify no keys are set)
+- [x] Remove external blog sources (Medium, Google Blog entries under `external_sources`)
+- [x] Update `blog_name` and `blog_description` or remove blog-related config
+- [x] Update `display_tags` and `display_categories` to remove blog-specific tags
 
 ## 2. Navigation — Remove Unused Pages
 
