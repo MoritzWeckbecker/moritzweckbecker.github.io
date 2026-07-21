@@ -1,146 +1,271 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Moritz Weckbecker
+  label: AI Safety Researcher
+  email: moritz.weckbecker@gmail.com
+  location: Berlin, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: AI safety researcher focused on interpretability and alignment of frontier models. Oxford and Cambridge mathematics graduate, pursuing a PhD at Fraunhofer HHI. Research interests include data attribution, subliminal learning, and mechanistic interpretability.
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: MWeckbecker
     - network: GitHub
-      username: example
+      username: MoritzWeckbecker
     - network: LinkedIn
-      username: example
+      username: moritz-weckbecker-b5359a193
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Salzufer 15/16
+    city: Berlin
+    region: Berlin
+    postalCode: "10587"
+    countryCode: DE
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Fraunhofer HHI & TU Berlin
+        location: Berlin, Germany
+        area: AI Interpretability
+        studyType: PhD (under Prof. Wojciech Samek)
+        start_date: 2024-01
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Data Attribution for Deep Learning models
+          - Subliminal Learning
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Oxford
+        location: Oxford, United Kingdom
+        url: https://www.ox.ac.uk/
+        area: Statistical Science
+        studyType: Master of Science
+        start_date: 2021-10
+        end_date: 2022-09
+        score: Pass with distinction (top-ranked graduate)
+        courses: "Statistical Data Analysis, Statistical Modelling, Machine Learning, Deep Learning"
+
+      - institution: University of Cambridge
+        location: Cambridge, United Kingdom
+        url: https://www.cam.ac.uk/
+        area: Pure Mathematics
+        studyType: Master of Advanced Study
+        start_date: 2020-10
+        end_date: 2021-06
+        score: Pass with distinction (top 15%)
+        courses: "Probability Theory, Medical Statistics, Causal Inference"
+
+      - institution: TU Berlin
+        location: Berlin, Germany
+        url: https://www.tu.berlin/
+        area: Mathematics
+        studyType: Bachelor of Science
+        start_date: 2016-10
+        end_date: 2019-08
+        score: "1.0 (highest possible grade)"
+        courses: "Algebra, Analysis, Programming, Numerical Mathematics"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
+      - company: Robert Koch-Institute
+        position: Researcher in AI for Public Health
         location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+        start_date: 2023-01
+        end_date: 2023-09
+        highlights:
+          - Developed interpretable molecular encoding method (iCAN) for peptide and protein classification in biomedical applications
+          - Outperformed state-of-the-art encodings on a large-scale study across 50 datasets, published in Computational and Structural Biotechnology Journal
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: University of Oxford
+        position: Research Assistant Intern, School of Geography and the Environment
+        location: Oxford, United Kingdom
+        start_date: 2021-12
+        end_date: 2021-12
+        highlights:
+          - Data analysis and visualization of big data networks on offshore jurisdiction and tax havens
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: OmicEra Diagnostics
+        position: Python Developer
+        location: Germany
+        start_date: 2020-06
+        end_date: 2020-09
+        highlights:
+          - Programmed a new algorithm for protein sequencing using graph theory
+          - Performed data analysis in Python using data from biological experiments
+          - Improved the algorithm using machine learning approaches
+
+      - company: TU Berlin
+        position: Academic Tutor
+        location: Berlin, Germany
+        start_date: 2018-04
+        end_date: 2019-03
+        highlights:
+          - Taught students in Linear Algebra and Analysis
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: be.boosted e.V. (Leadership Development Organisation)
+        position: Member of the Board
+        location: Germany
+        start_date: 2024-04
+        end_date: 2025-05
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Led a team of 50+ active members and provided strategic oversight for leadership training programmes and an alumni network of 300+ members
+
+      - company: be.boosted e.V.
+        position: Head of Recruiting
+        location: Germany
+        start_date: 2023-04
+        end_date: 2024-04
+        highlights:
+          - Led a team of 10 members and 20+ volunteers to attract 250+ applications and select the annual fellowship cohort
+
+      - company: be.boosted e.V.
+        position: Trainer / Senior Trainer
+        location: Germany
+        start_date: 2021-04
+        end_date: 2023-04
+        highlights:
+          - Prepared and facilitated weekly interactive workshops on communication, speechmaking and group dynamics
+          - Led an in-person weekend seminar and mentored participants through Model UN simulations and debate competitions
+          - Trained and supported new trainers in leadership development methodologies
+
+      - company: TU Berlin
+        position: Teacher for gifted students at the mathematical association "Leonhard Euler"
+        location: Berlin, Germany
+        start_date: 2018-09
+        end_date: 2020-09
+        highlights:
+          - Taught advanced mathematics to high-performing young students; developed curriculum materials, lesson plans and problem sets
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Gutiérrez Toscano Prize in Applied Statistics
+        date: 2022-09
+        awarder: University of Oxford
+        summary: For best performance in the MSc in Statistical Sciences
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Award for the best presentation of a thesis
+        date: 2019-12
+        awarder: Mathematics Department, TU Berlin
+
+      - title: Bachelor Award
+        date: 2019-11
+        awarder: Berliner Mathematische Gesellschaft
+
+      - title: Scholarship from the German Academic Scholarship Foundation
+        date: 2016-11
+        awarder: Studienstiftung des deutschen Volkes
+        summary: Awarded to the top 0.25% of students, for bachelor's and master's degrees
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Moritz Weckbecker
+          - J. Müller
+          - B. Hagag
+          - M. Mulet
+        releaseDate: 2026
+        publisher: AIWILD Workshop at ICML
+        summary: Accepted and presented at the AIWILD (Agents in the Wild) workshop at ICML.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Mitigating Emergent Misalignment with Data Attribution
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - L. Jaburi
+          - G. Paulo
+          - L. Quirke
+          - S. Shabalin
+          - M. Mulet
+          - J. Müller
+          - S. Jena
+          - Moritz Weckbecker
+          - N. Belrose
+        summary: In preparation.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "DualXDA: Towards Sparse, Efficient and Explainable Data Attribution in Large AI Models"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - G. Ü. Yolcu
+          - Moritz Weckbecker
+          - T. Wiegand
+          - W. Samek
+          - S. Lapuschkin
+        publisher: Transactions on Machine Learning Research
+        releaseDate: 2025
+
+      - title: Leveraging Influence Functions for Resampling Data in Physics-Informed Neural Networks
+        authors:
+          - J. R. Naujoks
+          - A. Krasowski
+          - Moritz Weckbecker
+          - R. P. Klausen
+        publisher: World Conference on Explainable Artificial Intelligence
+        releaseDate: 2025
+
+      - title: "PINNfluence: Influence Functions for Physics-Informed Neural Networks"
+        authors:
+          - J. R. Naujoks
+          - A. Krasowski
+          - Moritz Weckbecker
+          - R. P. Klausen
+        publisher: "2024 NeurIPS Workshop: Machine Learning and the Physical Sciences"
+        releaseDate: 2024
+
+      - title: Efficient and flexible neural network training through layer-wise feedback propagation
+        authors:
+          - L. Weber
+          - J. Berend
+          - Moritz Weckbecker
+          - S. Lapuschkin
+        publisher: Transactions on Machine Learning Research
+        releaseDate: 2025
+
+      - title: Navigating neural space - Revisiting concept activation vectors to overcome directional divergence
+        authors:
+          - F. Pahde
+          - M. Dreyer
+          - L. Weber
+          - Moritz Weckbecker
+          - C. J. Anders
+          - T. Wiegand
+          - S. Lapuschkin
+        publisher: ICLR
+        releaseDate: 2025
+
+      - title: Interpretable molecular encodings and representations for machine learning tasks
+        authors:
+          - Moritz Weckbecker
+          - A. Anžel
+          - Z. Yang
+          - G. Hattab
+        publisher: Computational and Structural Biotechnology Journal
+        releaseDate: 2024
+
+      - title: Supporting Mathematical Education with Interactive Visual Proofs
+        authors:
+          - Moritz Weckbecker
+          - S. Neziri
+          - G. Hattab
+        publisher: 2023 IEEE Workshop on Visualization for Social Good (VIS4Good)
+        releaseDate: 2023
+
+      - title: On RKHS Choices for Assessing Graph Generators via Kernel Stein Statistics
+        authors:
+          - Moritz Weckbecker
+          - W. Xu
+          - G. Reinert
+        publisher: 2022 NeurIPS Workshop on Score-Based Methods
+        releaseDate: 2022
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine Learning & AI Safety
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "Data Attribution, Mechanistic Interpretability, AI Safety & Alignment, Deep Learning, Statistical Modelling"
+
+      - name: Mathematics & Statistics
+        level: Advanced
+        icon: fa-solid fa-square-root-variable
+        keywords: "Probability Theory, Causal Inference, Algebra, Analysis, Numerical Mathematics"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, Data Analysis, Graph Theory Algorithms"
 
     Languages:
       - name: German
@@ -148,42 +273,3 @@ cv:
 
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
