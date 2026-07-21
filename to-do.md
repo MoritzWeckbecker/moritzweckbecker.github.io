@@ -76,3 +76,30 @@
 
 - [ ] Decide on content for a miscellaneous page
 - [ ] Create `_pages/misc.md` and add to navigation
+
+## 10. Cleanup — Broken / Old Artifacts (found during site audit)
+
+Site-wide placeholder text (visible on live pages right now):
+
+- [ ] `_config.yml` `description:` is still the theme default ("A simple, whitespace theme for academics. Based on [\*folio]...") — used in SEO meta tags and RSS
+- [ ] `_config.yml` `footer_text:` is still the literal placeholder `A footer.`, shown in the site footer on every page
+- [ ] `_config.yml` `icon: ⚛️` — physics-atom emoji favicon left over from the Einstein template; replace with something fitting or a custom image
+
+Broken image references (files were removed from `assets/img/` locally but are still referenced — pages currently 404 their images):
+
+- [ ] `_pages/profiles.md` + `_pages/about_einstein.md` — fully placeholder Einstein content referencing deleted `prof_pic.jpg`; page is hidden from nav but still publicly reachable at `/people/`. Recommend deleting both files since the page isn't used.
+- [ ] `_books/the_godfather.md` — demo book review referencing deleted `the_godfather.jpg`; Books page is hidden. Recommend deleting since not used.
+- [ ] `_projects/1_project.md`–`9_project.md` — demo projects referencing deleted `1.jpg`–`12.jpg`; Projects page is hidden. Recommend deleting since not used.
+- [ ] `_posts/` (31 theme demo/feature-showcase posts) — reference deleted demo images (`prof_pic.jpg`, `prof_pic_color.png`, `rhino.png`, etc.); Blog is hidden from nav but individual posts are still publicly reachable. Recommend deleting the whole `_posts/` directory since the blog is disabled.
+- [ ] `_teachings/` (2 demo course entries: "Prof. Data", "Prof. Example") — Teaching page is hidden. Recommend deleting since not used.
+
+Stale/auto-generated data:
+
+- [ ] `_data/citations.yml` — still keyed to the old Einstein Google Scholar ID (`qc6CJjYAAAAJ`) instead of the real one (`BNo6RuwAAAAJ`); should self-correct on the next scheduled `update-citations.yml` run (Mon/Wed/Fri), or trigger it manually via `workflow_dispatch` sooner
+- [ ] `assets/json/resume.json` — alternate JSONResume-format CV, still 100% Albert Einstein placeholder data; currently unused (`cv_format: rendercv` is active in `_pages/cv.md`) but should be updated or removed to avoid confusion
+- [ ] `_pages/repositories.md` — page `description:` is still the theme's setup instructions ("Edit the `_data/repositories.yml`...") rather than real copy; do after Section 7
+
+Uncommitted local cleanup already sitting in the working tree:
+
+- [ ] Unstaged deletions of demo images (`assets/img/1.jpg`–`12.jpg`, `prof_pic.jpg`, `prof_pic_color.png`, `rhino.png`, `template_error.png`, `book_covers/the_godfather.jpg`, `publication_preview/*.gif`) — decide whether to commit these (recommended once the pages referencing them above are removed too, to avoid new broken links)
+- [ ] `assets/img/2025-05-DidaConference-3.jpg` — uploaded but not referenced anywhere on the site yet; decide where to use it or remove it
