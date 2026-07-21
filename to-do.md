@@ -27,7 +27,7 @@
 - [x] Add link to Fraunhofer HHI in the subtitle
 - [x] Update office/address info below profile picture
 - [x] Write biography text
-- [ ] Add profile photo (`assets/img/prof_pic.jpg`) — to be uploaded by user
+- [x] Add profile photo (`assets/img/profile.jpeg`)
 - [x] Disable `latest_posts` section (no blog)
 - [x] Keep `announcements` (news) section enabled
 - [x] Keep `selected_papers` section enabled
