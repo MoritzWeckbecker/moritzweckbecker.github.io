@@ -1,14 +1,10 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-05'
 papers:
   BNo6RuwAAAAJ:2osOgNQ5qMEC:
     citations: 4
     title: On RKHS choices for assessing graph generators via kernel Stein statistics
     year: '2022'
-  BNo6RuwAAAAJ:9yKSN-GCB0IC:
-    citations: 0
-    title: On RKHS Choices for Assessing Graph Generators via Kernel Stein Statistics
-    year: Unknown Year
   BNo6RuwAAAAJ:IjCSPb-OGe4C:
     citations: 1
     title: 'PINNfluence: Influence Functions for Physics-Informed Neural Networks'
@@ -20,18 +16,18 @@ papers:
   BNo6RuwAAAAJ:Tyk-4Ss8FVUC:
     citations: 4
     title: Efficient and flexible neural network training through layer-wise feedback propagation
-    year: '2025'
+    year: '2023'
   BNo6RuwAAAAJ:UeHWp8X0CEIC:
-    citations: 24
+    citations: 25
     title: 'Navigating neural space: Revisiting concept activation vectors to overcome directional divergence'
     year: '2025'
   BNo6RuwAAAAJ:WF5omc3nYNoC:
-    citations: 3
-    title: Mitigating Emergent Misalignment with Data Attribution
-    year: Unknown Year
+    citations: 4
+    title: Mitigating emergent misalignment with data attribution
+    year: '2025'
   BNo6RuwAAAAJ:Y0pCki6q_DkC:
     citations: 2
-    title: Leveraging Influence Functions for Resampling Data in Physics-Informed Neural Networks
+    title: Leveraging influence functions for resampling data in physics-informed neural networks
     year: '2025'
   BNo6RuwAAAAJ:_FxGoFyzp5QC:
     citations: 4
