@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <defs>
+    <linearGradient id="bg-pahde2025navigating" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(280, 55%, 92%)"/>
+      <stop offset="100%" stop-color="hsl(305, 55%, 84%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#bg-pahde2025navigating)"/>
+  <circle cx="12" cy="78" r="116" fill="hsl(280, 60%, 45%)" opacity="0.22"/><circle cx="25" cy="138" r="88" fill="hsl(320, 55%, 55%)" opacity="0.24"/><circle cx="17" cy="184" r="87" fill="hsl(250, 50%, 60%)" opacity="0.24"/><circle cx="447" cy="250" r="106" fill="hsl(280, 60%, 45%)" opacity="0.27"/><circle cx="384" cy="211" r="65" fill="hsl(320, 55%, 55%)" opacity="0.20"/>
+  <line x1="132" y1="242" x2="118" y2="166" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="132" y1="242" x2="116" y2="291" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="132" y1="242" x2="310" y2="147" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="227" y1="313" x2="310" y2="147" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="118" y1="166" x2="240" y2="29" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="116" y1="291" x2="310" y2="147" stroke="hsl(280, 60%, 45%)" stroke-width="1" opacity="0.35"/>
+  <circle cx="132" cy="242" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/><circle cx="227" cy="313" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/><circle cx="118" cy="166" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/><circle cx="116" cy="291" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/><circle cx="310" cy="147" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/><circle cx="240" cy="29" r="4" fill="hsl(280, 60%, 45%)" opacity="0.7"/>
+</svg>

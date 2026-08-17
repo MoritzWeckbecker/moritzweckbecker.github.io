@@ -103,3 +103,27 @@ Uncommitted local cleanup already sitting in the working tree:
 
 - [ ] Unstaged deletions of demo images (`assets/img/1.jpg`–`12.jpg`, `prof_pic.jpg`, `prof_pic_color.png`, `rhino.png`, `template_error.png`, `book_covers/the_godfather.jpg`, `publication_preview/*.gif`) — decide whether to commit these (recommended once the pages referencing them above are removed too, to avoid new broken links)
 - [ ] `assets/img/2025-05-DidaConference-3.jpg` — uploaded but not referenced anywhere on the site yet; decide where to use it or remove it
+
+## 11. Ideas triaged from `suggestions.md` (case study: kotekjedi.github.io, 2026-08-17)
+
+Accepted from the punch list — see `suggestions.md` for full rationale:
+
+- [ ] Verify/fill Open Graph + Twitter Card meta (`og:image`, `og:description`) via `_config.yml`'s `og_image`/`social_preview` fields
+- [ ] Enable inline abstract/BibTeX toggles on the publications list (jekyll-scholar toggle config in `_config.yml` / `_layouts/bib.liquid`) if not already on
+- [ ] Confirm own name is bolded/highlighted in multi-author bylines on the publications page; implement via jekyll-scholar name-matching if missing
+- [ ] Add per-paper cover images (`image` field) to `_bibliography/papers.bib` entries where a distinctive figure from the paper exists
+- [ ] Add a compact "now" panel (current focus / location / upcoming travel) near the top of `about.md`, distinct from the static bio
+- [ ] Add a JSON-LD `Person` + `ScholarlyArticle` structured-data block to `<head>` listing each publication's `headline`/`author`/`url`/`datePublished`
+- [ ] Verify favicon is a customized image, not a theme default (relates to Section 10's `icon: ⚛️` cleanup)
+- [ ] Audit for redundant/duplicated analytics scripts across `_config.yml`/head includes
+
+Decided, no action needed (recorded so they aren't re-litigated):
+
+- Dark mode: keep hard-coded light-as-default for now (toggle stays enabled) — deliberate choice, not a regression; matches Section 1's existing decision.
+- CV: keep as an HTML page (`cv.md`/`_data/cv.yml`), not PDF-only — already the case, nothing to change.
+
+Noted for later, not urgent at current publication count (~5 papers):
+
+- Filter/tag publications by topic once the list grows past ~10 entries
+- Inline citation counts via Scholar integration on the publications list
+- Monospace font stack for BibTeX blocks if that CSS is ever hand-rolled

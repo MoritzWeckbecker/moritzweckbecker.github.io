@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <defs>
+    <linearGradient id="bg-naujoks2024pinnfluence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(15, 55%, 92%)"/>
+      <stop offset="100%" stop-color="hsl(40, 55%, 84%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#bg-naujoks2024pinnfluence)"/>
+  <circle cx="155" cy="278" r="101" fill="hsl(15, 60%, 45%)" opacity="0.24"/><circle cx="295" cy="272" r="69" fill="hsl(55, 55%, 55%)" opacity="0.27"/><circle cx="402" cy="217" r="63" fill="hsl(345, 50%, 60%)" opacity="0.26"/><circle cx="56" cy="174" r="56" fill="hsl(15, 60%, 45%)" opacity="0.30"/><circle cx="255" cy="112" r="62" fill="hsl(55, 55%, 55%)" opacity="0.18"/>
+  <line x1="421" y1="299" x2="15" y2="219" stroke="hsl(15, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="421" y1="299" x2="328" y2="315" stroke="hsl(15, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="421" y1="299" x2="256" y2="108" stroke="hsl(15, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="15" y1="219" x2="17" y2="103" stroke="hsl(15, 60%, 45%)" stroke-width="1" opacity="0.35"/><line x1="17" y1="103" x2="256" y2="108" stroke="hsl(15, 60%, 45%)" stroke-width="1" opacity="0.35"/>
+  <circle cx="19" cy="205" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/><circle cx="421" cy="299" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/><circle cx="15" cy="219" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/><circle cx="328" cy="315" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/><circle cx="17" cy="103" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/><circle cx="256" cy="108" r="4" fill="hsl(15, 60%, 45%)" opacity="0.7"/>
+</svg>
