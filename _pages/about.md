@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<p><strong>Focus:</strong> Data attribution &amp; subliminal learning &nbsp;&bull;&nbsp; <strong>Whereabouts:</strong> Berlin, Germany &nbsp;&bull;&nbsp; <strong>Plans:</strong> Just returned from ICML in Seoul 🇰🇷</p>
+
 I am a PhD student in AI Interpretability at the Fraunhofer Heinrich-Hertz-Institute (HHI) and TU Berlin, advised by Prof. Wojciech Samek. My research centers on data attribution, subliminal learning, and mechanistic interpretability, with a broader interest in the safety and alignment of frontier AI models.
 
 Before starting my PhD, I completed an MSc in Statistical Science at the University of Oxford (top-ranked graduate) and an MASt in Pure Mathematics at the University of Cambridge, following a BSc in Mathematics at TU Berlin. In between, I worked as a researcher in AI for public health at the Robert Koch-Institute.

@@ -9,7 +9,8 @@
   author      = {Weckbecker, Moritz and M{\"u}ller, J. and Hagag, B. and Mulet, M.},
   booktitle   = {AIWILD Workshop at ICML},
   year        = {2026},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {Subliminal prompting is a phenomenon in which language models are biased towards certain concepts or traits through prompting with semantically unrelated tokens. While prior work has examined subliminal prompting in user-LLM interactions, potential bias transfer in multi-agent systems and its associated security implications remain unexplored. In this work, we show that a single subliminally prompted agent can spread a weakening but persisting bias throughout its entire network. We measure this phenomenon across 6 agents using two different topologies, observing that the transferred concept maintains an elevated response rate throughout the network. To exemplify potential misalignment risks, we assess network performance on multiple-choice TruthfulQA, showing that subliminal prompting of a single agent may degrade the truthfulness of other agents. Our findings reveal that subliminal prompting introduces a new attack vector in multi-agent security, with implications for the alignment of such systems.}
 }
 
 @article{yolcu2025dualxda,
@@ -21,7 +22,8 @@
   journal     = {Transactions on Machine Learning Research},
   year        = {2025},
   annotation  = {* Equal contribution},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {Data Attribution (DA) is an emerging approach in the field of eXplainable Artificial Intelligence (XAI), aiming to identify influential training datapoints which determine model outputs. However, existing DA approaches suffer from prohibitively high computational costs and memory demands when applied to even medium-scale datasets and models, forcing practitioners to resort to approximations that may fail to capture the true inference process of the underlying model. Additionally, current attribution methods exhibit low sparsity, resulting in non-negligible attribution scores across a high number of training examples, hindering the discovery of decisive patterns in the data. In this work, we introduce DualXDA, a framework for sparse, efficient and explainable DA, comprised of two interlinked approaches, Dual Data Attribution (DualDA) and eXplainable Data Attribution (XDA): with DualDA, we propose a novel approach for efficient and effective DA, leveraging Support Vector Machine theory to provide fast and naturally sparse data attributions for AI predictions. In extensive quantitative analyses, we demonstrate that DualDA achieves high attribution quality, excels at solving a series of evaluated downstream tasks, while at the same time improving explanation time by a factor of up to 4,100,000x compared to the original Influence Functions method. We further introduce XDA, a method for enhancing Data Attribution with capabilities from feature attribution methods to explain why training samples are relevant for the prediction of a test sample in terms of impactful features.}
 }
 
 @inproceedings{naujoks2026pinnfluence,
@@ -32,7 +34,8 @@
   author      = {Naujoks, J. R. and Krasowski, A. and Weckbecker, Moritz and Klausen, R. P.},
   booktitle   = {International Conference on Machine Learning (ICML)},
   year        = {2026},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {Physics-informed neural networks (PINNs) have emerged as a powerful deep learning approach for solving partial differential equations (PDEs) in the physical sciences, yet their behavior remains largely opaque and is typically understood through failure mode analyses rather than explicit interpretability. To address this issue, we introduce PINNfluence, a training data attribution framework for interpreting PINNs based on influence functions. By extending influence functions to composite physics-informed training objectives, we enable fine-grained attribution between predictions, loss components, and training data points. Through benchmark experiments across various PDEs, we demonstrate that influence patterns provide granular diagnostics that distinguish structural characteristics across well-trained and poorly-trained PINNs. PINNfluence thus opens a new avenue for understanding and improving the reliability of PINNs through the lens of their data.}
 }
 
 @article{weckbecker2024interpretable,
@@ -43,7 +46,8 @@
   author      = {Weckbecker, Moritz and An{\v{z}}el, A. and Yang, Z. and Hattab, G.},
   journal     = {Computational and Structural Biotechnology Journal},
   year        = {2024},
-  selected    = {true}
+  selected    = {true},
+  abstract    = {Molecular encodings and their usage in machine learning models have demonstrated significant breakthroughs in biomedical applications, particularly in the classification of peptides and proteins. To this end, we propose a new encoding method: Interpretable Carbon-based Array of Neighborhoods (iCAN). Designed to address machine learning models' need for more structured and less flexible input, it captures the neighborhoods of carbon atoms in a counting array and improves the utility of the resulting encodings for machine learning models. The iCAN method provides interpretable molecular encodings and representations, enabling the comparison of molecular neighborhoods, identification of repeating patterns, and visualization of relevance heat maps for a given data set. When reproducing a large biomedical peptide classification study, it outperforms its predecessor encoding. When extended to proteins, it outperforms a lead structure-based encoding on 71% of the data sets. Our method offers interpretable encodings that can be applied to all organic molecules, including exotic amino acids, cyclic peptides, and larger proteins, making it highly versatile across various domains and data sets.}
 }
 
 @inproceedings{naujoks2024pinnfluence,
@@ -52,7 +56,8 @@
   title     = {{PINNfluence}: Influence Functions for Physics-Informed Neural Networks},
   author    = {Naujoks, J. R. and Krasowski, A. and Weckbecker, Moritz and Klausen, R. P.},
   booktitle = {2024 NeurIPS Workshop: Machine Learning and the Physical Sciences},
-  year      = {2024}
+  year      = {2024},
+  abstract  = {Physics-informed neural networks (PINNs) have emerged as a powerful deep learning approach for solving partial differential equations (PDEs) in the physical sciences, yet their behavior remains largely opaque and is typically understood through failure mode analyses rather than explicit interpretability. To address this issue, we introduce PINNfluence, a training data attribution framework for interpreting PINNs based on influence functions. By extending influence functions to composite physics-informed training objectives, we enable fine-grained attribution between predictions, loss components, and training data points. Through benchmark experiments across various PDEs, we demonstrate that influence patterns provide granular diagnostics that distinguish structural characteristics across well-trained and poorly-trained PINNs. PINNfluence thus opens a new avenue for understanding and improving the reliability of PINNs through the lens of their data.}
 }
 
 @inproceedings{naujoks2025leveraging,
@@ -61,7 +66,8 @@
   title     = {Leveraging Influence Functions for Resampling Data in Physics-Informed Neural Networks},
   author    = {Naujoks, J. R. and Krasowski, A. and Weckbecker, Moritz and Klausen, R. P.},
   booktitle = {World Conference on Explainable Artificial Intelligence},
-  year      = {2025}
+  year      = {2025},
+  abstract  = {Physics-informed neural networks (PINNs) offer a powerful approach to solving partial differential equations (PDEs), which are ubiquitous in the quantitative sciences. Applied to both forward and inverse problems across various scientific domains, PINNs have recently emerged as a valuable tool in the field of scientific machine learning. A key aspect of their training is that the data -- spatio-temporal points sampled from the PDE's input domain -- are readily available. Influence functions, a tool from the field of explainable AI (XAI), approximate the effect of individual training points on the model, enhancing interpretability. In the present work, we explore the application of influence function-based sampling approaches for the training data. Our results indicate that such targeted resampling based on data attribution methods has the potential to enhance prediction accuracy in physics-informed neural networks, demonstrating a practical application of an XAI method in PINN training.}
 }
 
 @inproceedings{pahde2025navigating,
@@ -70,16 +76,18 @@
   title     = {Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence},
   author    = {Pahde, F. and Dreyer, M. and Weber, L. and Weckbecker, Moritz and Anders, C. J. and Wiegand, T. and Lapuschkin, S.},
   booktitle = {International Conference on Learning Representations (ICLR)},
-  year      = {2025}
+  year      = {2025},
+  abstract  = {With a growing interest in understanding neural network prediction strategies, Concept Activation Vectors (CAVs) have emerged as a popular tool for modeling human-understandable concepts in the latent space. Commonly, CAVs are computed by leveraging linear classifiers optimizing the separability of latent representations of samples with and without a given concept. However, in this paper we show that such a separability-oriented computation leads to solutions, which may diverge from the actual goal of precisely modeling the concept direction. This discrepancy can be attributed to the significant influence of distractor directions, i.e., signals unrelated to the concept, which are picked up by filters (i.e., weights) of linear models to optimize class-separability. To address this, we introduce pattern-based CAVs, solely focussing on concept signals, thereby providing more accurate concept directions. We evaluate various CAV methods in terms of their alignment with the true concept direction and their impact on CAV applications, including concept sensitivity testing and model correction for shortcut behavior caused by data artifacts.}
 }
 
 @article{weber2025layerwise,
-  abbr    = {TMLR},
-  preview = {weber2025layerwise.png},
-  title   = {Efficient and Flexible Neural Network Training through Layer-wise Feedback Propagation},
-  author  = {Weber, L. and Berend, J. and Weckbecker, Moritz and Lapuschkin, S.},
-  journal = {Transactions on Machine Learning Research},
-  year    = {2025}
+  abbr     = {TMLR},
+  preview  = {weber2025layerwise.png},
+  title    = {Efficient and Flexible Neural Network Training through Layer-wise Feedback Propagation},
+  author   = {Weber, L. and Berend, J. and Weckbecker, Moritz and Lapuschkin, S.},
+  journal  = {Transactions on Machine Learning Research},
+  year     = {2025},
+  abstract = {Gradient-based optimization has been a cornerstone of machine learning that enabled the vast advances of Artificial Intelligence (AI) development over the past decades. However, this type of optimization requires differentiation, and with recent evidence of the benefits of non-differentiable (e.g. neuromorphic) architectures over classical models w.r.t. efficiency, such constraints can become limiting in the future. We present Layer-wise Feedback Propagation (LFP), a novel training principle for neural network-like predictors that utilizes methods from the domain of explainability to decompose a reward to individual neurons based on their respective contributions. Leveraging these neuron-wise rewards, our method then implements a greedy approach reinforcing helpful parts of the network and weakening harmful ones. While having comparable computational complexity to gradient descent, LFP does not require gradient computation and generates sparse and thereby memory- and energy-efficient parameter updates and models. We establish the convergence of LFP theoretically and empirically, demonstrating its effectiveness on various models and datasets. Via two applications -- neural network pruning and the approximation-free training of Spiking Neural Networks (SNNs) -- we demonstrate that LFP combines increased efficiency in terms of computation and representation with flexibility w.r.t. choice of model architecture and objective function.}
 }
 
 @inproceedings{weckbecker2022rkhs,
@@ -88,7 +96,8 @@
   title     = {On {RKHS} Choices for Assessing Graph Generators via Kernel {S}tein Statistics},
   author    = {Weckbecker, Moritz and Xu, W. and Reinert, G.},
   booktitle = {2022 NeurIPS Workshop on Score-Based Methods},
-  year      = {2022}
+  year      = {2022},
+  abstract  = {Score-based kernelised Stein discrepancy (KSD) tests have emerged as a powerful tool for the goodness of fit tests, especially in high dimensions; however, the test performance may depend on the choice of kernels in an underlying reproducing kernel Hilbert space (RKHS). Here we assess the effect of RKHS choice for KSD tests of random networks models, developed for exponential random graph models (ERGMs) and for synthetic graph generators. We investigate the power performance and the computational runtime of the test in different scenarios, including both dense and sparse graph regimes. Experimental results on kernel performance for model assessment tasks are shown and discussed on synthetic and real-world network applications.}
 }
 
 @inproceedings{weckbecker2023mathvisual,
@@ -97,5 +106,6 @@
   title     = {Supporting Mathematical Education with Interactive Visual Proofs},
   author    = {Weckbecker, Moritz and Neziri, S. and Hattab, G.},
   booktitle = {2023 IEEE Workshop on Visualization for Social Good (VIS4Good)},
-  year      = {2023}
+  year      = {2023},
+  abstract  = {While visual proofs are already a valuable tool for conveying the logical ideas behind mathematical proofs, their potential for explaining and engaging can be enhanced by the addition of interactive elements. We present an open platform for interactive visual proofs that is freely available for students and teachers alike, and which can be expanded by the community. Our platform has the potential to support mathematical education by providing students with a more interactive and engaging way to learn mathematical concepts and to show them directly the importance of proofs in mathematics. We aim to support equity in mathematical education by making our platform free, participatory and open to multiple languages.}
 }
