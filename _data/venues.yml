@@ -1,9 +1,26 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badge colours for the publication list, keyed by the exact `abbr` of a bib entry.
+# Optional `url` turns the badge into a link. Workshops reuse their host conference colour.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICML":
+  color: "#2563eb"
 
-"Vision":
-  color: "#009f36"
+"ICML AIWILD":
+  color: "#2563eb"
+
+"ICLR":
+  color: "#dc2626"
+
+"NeurIPS Workshop":
+  color: "#7c3aed"
+
+"TMLR":
+  color: "#db2777"
+
+"CSBJ":
+  color: "#059669"
+
+"WCXAI":
+  color: "#d97706"
+
+"VIS4Good":
+  color: "#0891b2"
