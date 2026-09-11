@@ -81,9 +81,9 @@
 
 Site-wide placeholder text (visible on live pages right now):
 
-- [ ] `_config.yml` `description:` is still the theme default ("A simple, whitespace theme for academics. Based on [\*folio]...") — used in SEO meta tags and RSS
+- [x] `_config.yml` `description:` is still the theme default ("A simple, whitespace theme for academics. Based on [\*folio]...") — used in SEO meta tags and RSS — replaced with real copy as part of Section 11's OG-meta work
 - [ ] `_config.yml` `footer_text:` is still the literal placeholder `A footer.`, shown in the site footer on every page
-- [ ] `_config.yml` `icon: ⚛️` — physics-atom emoji favicon left over from the Einstein template; replace with something fitting or a custom image
+- [x] `_config.yml` `icon: ⚛️` — physics-atom emoji favicon left over from the Einstein template; replace with something fitting or a custom image — set to the profile photo as part of Section 11's favicon check
 
 Broken image references (files were removed from `assets/img/` locally but are still referenced — pages currently 404 their images):
 
@@ -108,14 +108,14 @@ Uncommitted local cleanup already sitting in the working tree:
 
 Accepted from the punch list — see `suggestions.md` for full rationale:
 
-- [ ] Verify/fill Open Graph + Twitter Card meta (`og:image`, `og:description`) via `_config.yml`'s `og_image`/`social_preview` fields
-- [ ] Enable inline abstract/BibTeX toggles on the publications list (jekyll-scholar toggle config in `_config.yml` / `_layouts/bib.liquid`) if not already on
-- [ ] Confirm own name is bolded/highlighted in multi-author bylines on the publications page; implement via jekyll-scholar name-matching if missing
-- [ ] Add per-paper cover images (`image` field) to `_bibliography/papers.bib` entries where a distinctive figure from the paper exists
-- [ ] Add a compact "now" panel (current focus / location / upcoming travel) near the top of `about.md`, distinct from the static bio
-- [ ] Add a JSON-LD `Person` + `ScholarlyArticle` structured-data block to `<head>` listing each publication's `headline`/`author`/`url`/`datePublished`
-- [ ] Verify favicon is a customized image, not a theme default (relates to Section 10's `icon: ⚛️` cleanup)
-- [ ] Audit for redundant/duplicated analytics scripts across `_config.yml`/head includes
+- [x] Verify/fill Open Graph + Twitter Card meta (`og:image`, `og:description`) via `_config.yml`'s `og_image`/`social_preview` fields — set `serve_og_meta: true`, `og_image` to the profile photo, and replaced the placeholder `description:` with real copy
+- [x] Enable inline abstract/BibTeX toggles on the publications list (jekyll-scholar toggle config in `_config.yml` / `_layouts/bib.liquid`) if not already on — toggle mechanism was already built into the theme; added `abstract = {...}` text (fetched from arXiv/venue pages) to all 10 `papers.bib` entries so the "Abs" button actually appears
+- [x] Confirm own name is bolded/highlighted in multi-author bylines on the publications page; implement via jekyll-scholar name-matching if missing — verified already working via `scholar.last_name`/`first_name` config, no change needed
+- [x] Add per-paper cover images (`image`/`preview` field) to `_bibliography/papers.bib` entries where a distinctive figure from the paper exists — already fully populated for all 10 entries, no change needed
+- [x] Add a compact "now" panel (current focus / location / upcoming travel) near the top of `about.md`, distinct from the static bio
+- [x] Add a JSON-LD `Person` + `ScholarlyArticle` structured-data block to `<head>` listing each publication's `headline`/`author`/`url`/`datePublished` — enabled `serve_schema_org` site-wide, hand-authored the publications array on `_pages/publications.md`
+- [x] Verify favicon is a customized image, not a theme default (relates to Section 10's `icon: ⚛️` cleanup) — replaced the physics-atom emoji with the profile photo as the favicon
+- [x] Audit for redundant/duplicated analytics scripts across `_config.yml`/head includes — confirmed all analytics providers already disabled, no duplicates
 
 Decided, no action needed (recorded so they aren't re-litigated):
 
