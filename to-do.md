@@ -29,7 +29,7 @@
 - [x] Write biography text
 - [x] Add profile photo (`assets/img/profile.jpeg`)
 - [x] Disable `latest_posts` section (no blog)
-- [x] Keep `announcements` (news) section enabled
+- [x] Hide `announcements` (news) section for now (`enabled: false` in `_pages/about.md`; `_news/` kept for reuse)
 - [x] Keep `selected_papers` section enabled
 
 ## 4. Social Links (`_data/socials.yml`)
@@ -68,6 +68,9 @@
 - [ ] Add your GitHub username to the config
 
 ## 8. News / Announcements (`_news/`)
+
+> News is currently hidden. To restore: `announcements.enabled: true` in `_pages/about.md`,
+> remove `published: false` from `_pages/news.md`, and set `collections.news.output: true` in `_config.yml`.
 
 - [ ] Remove placeholder news entries
 - [ ] Add your own announcements (paper acceptances, talks, etc.)

@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Moritz Weckbecker | Personal Website # the website title (if blank, full name will be used instead)
+title: Moritz Weckbecker # the website title (if blank, full name will be used instead)
 first_name: Moritz
 last_name: Weckbecker
 contact_note: >
@@ -123,7 +123,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false # news hidden for now; see to-do.md Section 8 for how to restore
   projects:
     output: true
   teachings:
