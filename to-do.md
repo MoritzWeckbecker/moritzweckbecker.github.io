@@ -23,7 +23,7 @@
 
 ## 3. About Page (`_pages/about.md`)
 
-- [x] Update subtitle to: `PhD Student in AI Interpretability, focusing on Data Attribution and AI Safety @ Fraunhofer HHI`
+- [x] Update subtitle to: `PhD Student in AI Interpretability @ Fraunhofer HHI` (shortened 2026-09-14 from the longer "…, focusing on Data Attribution and AI Safety @ …" — the research focus now lives in the Focus line of the "now" panel instead)
 - [x] Add link to Fraunhofer HHI in the subtitle
 - [x] Update office/address info below profile picture
 - [x] Write biography text
@@ -86,7 +86,7 @@ Site-wide placeholder text (visible on live pages right now):
 
 - [x] `_config.yml` `description:` is still the theme default ("A simple, whitespace theme for academics. Based on [\*folio]...") — used in SEO meta tags and RSS — replaced with real copy as part of Section 11's OG-meta work
 - [ ] `_config.yml` `footer_text:` is still the literal placeholder `A footer.`, shown in the site footer on every page
-- [x] `_config.yml` `icon: ⚛️` — physics-atom emoji favicon left over from the Einstein template; replace with something fitting or a custom image — set to the profile photo as part of Section 11's favicon check
+- [x] `_config.yml` `icon: ⚛️` — physics-atom emoji favicon left over from the Einstein template; replace with something fitting or a custom image — now the 💡 lightbulb emoji (was briefly the profile photo; changed 2026-09-14)
 
 Broken image references (files were removed from `assets/img/` locally but are still referenced — pages currently 404 their images):
 
@@ -117,7 +117,7 @@ Accepted from the punch list — see `suggestions.md` for full rationale:
 - [x] Add per-paper cover images (`image`/`preview` field) to `_bibliography/papers.bib` entries where a distinctive figure from the paper exists — already fully populated for all 10 entries, no change needed
 - [x] Add a compact "now" panel (current focus / location / upcoming travel) near the top of `about.md`, distinct from the static bio
 - [x] Add a JSON-LD `Person` + `ScholarlyArticle` structured-data block to `<head>` listing each publication's `headline`/`author`/`url`/`datePublished` — enabled `serve_schema_org` site-wide, hand-authored the publications array on `_pages/publications.md`
-- [x] Verify favicon is a customized image, not a theme default (relates to Section 10's `icon: ⚛️` cleanup) — replaced the physics-atom emoji with the profile photo as the favicon
+- [x] Verify favicon is a customized image, not a theme default (relates to Section 10's `icon: ⚛️` cleanup) — replaced the physics-atom emoji; now the 💡 lightbulb emoji (2026-09-14)
 - [x] Audit for redundant/duplicated analytics scripts across `_config.yml`/head includes — confirmed all analytics providers already disabled, no duplicates
 
 Decided, no action needed (recorded so they aren't re-litigated):
