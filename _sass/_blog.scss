@@ -98,6 +98,13 @@
   }
 }
 
+// Adds one line height (body line-height 1.5 x 1rem) of breathing room above
+// each homepage section heading, on top of the 1rem bottom margin the preceding
+// paragraph already contributes.
+.about-section-heading {
+  margin-top: 1.5rem;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
